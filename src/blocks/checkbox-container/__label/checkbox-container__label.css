@@ -1,0 +1,7 @@
+.checkbox-container__label {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 100%;
+  font-weight: bold;
+  background-color: rgba(168, 108, 29, 0.4);
+}

@@ -1,4 +1,4 @@
-class Position {
+export default class Position {
   constructor(container, backgroundImageWidth, backgroundImageHeight, buttonSize) {
     this._background = document.querySelector(container);
     this._imageWidth = backgroundImageWidth;
@@ -40,4 +40,3 @@ class Position {
     return { xPosition: this.xPosition, yPosition: this.yPosition };
   }
 }
-export default position = new Position('.background', 1920, 1080, 41);

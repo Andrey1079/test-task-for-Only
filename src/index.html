@@ -6,18 +6,23 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
     <title>Тестовое задание для Only</title>
-    <link
-      rel="stylesheet"
-      href="./pages/index.css" />
   </head>
   <body class="root">
+    <div class="checkbox-container">
+      <input
+        type="checkbox"
+        class="checkbox-container__checkbox"
+        name="add-marker" />
+      <label
+        class="checkbox-container__label"
+        for="add-marker"
+        >Добавить маркеры</label
+      >
+    </div>
     <div class="background"></div>
     <!-- шаблон маркера местоположения -->
     <template class="marker-template">
       <button class="button"></button>
     </template>
-    <script
-      type="module"
-      src="./pages/index.js"></script>
   </body>
 </html>

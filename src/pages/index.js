@@ -1,6 +1,9 @@
 import PlaceMarker from '../components/PlaceMarker';
-import { markerArray, background } from '../variables/variables';
-import position from '../components/Position';
+import { markerArray, background, checkbox } from '../variables/variables';
+import Position from '../components/Position';
+import '../pages/index.css';
+
+const position = new Position('.background', 1920, 1080, 41);
 
 function createMarker(marker) {
   const newMarker = new PlaceMarker(marker, '.marker-template', getPosition);
@@ -32,7 +35,7 @@ window.addEventListener('resize', () => {
   }, 100);
 });
 background.addEventListener('click', (e) => {
-  if (false) {
+  if (checkbox.checked) {
     const pointName = prompt('Название объекта');
     const pointColor = prompt('Цвет маркера green/blue');
     const { containerWidth, containerHeight } = position.getContainerSize();
@@ -45,6 +48,7 @@ background.addEventListener('click', (e) => {
     markerArray.push(marker);
     createMarker(marker);
     console.log(markerArray);
+    checkbox.checked = false;
   } else {
     if (e.target !== e.currentTarget) {
       e.target.classList.toggle('button_active');

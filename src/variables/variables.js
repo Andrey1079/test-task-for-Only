@@ -1,4 +1,4 @@
-const markerArray = [
+export const markerArray = [
   {
     name: 'Мост',
     color: 'blue',
@@ -60,6 +60,6 @@ const markerArray = [
     yOffset: 192,
   },
 ];
-const background = document.querySelector('.background');
+export const background = document.querySelector('.background');
 
-export { markerArray, background };
+export let checkbox = document.querySelector('.checkbox-container__checkbox');

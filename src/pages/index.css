@@ -4,3 +4,6 @@
 @import url(../blocks/button/_color/button_color_blue.css);
 @import url(../blocks/button/_color/button_color_green.css);
 @import url(../blocks/button/_active/button_active.css);
+@import url(../blocks/checkbox-container/checkbox-container.css);
+@import url(../blocks/checkbox-container/__checkbox/checkbox-container__checkbox.css);
+@import url(../blocks/checkbox-container/__label/checkbox-container__label.css);
