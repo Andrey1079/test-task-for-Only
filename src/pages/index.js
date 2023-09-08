@@ -41,7 +41,7 @@ background.addEventListener('click', (e) => {
     const { containerWidth, containerHeight } = position.getContainerSize();
     const marker = {
       name: `${pointName}`,
-      color: `${pointColor}`,
+      color: `${pointColor === 'blue' ? 'blue' : 'green'}`,
       xOffset: e.clientX - containerWidth / 2,
       yOffset: e.clientY - containerHeight / 2,
     };
