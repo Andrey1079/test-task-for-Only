@@ -29,3 +29,5 @@
 - Следовать указаниям браузера.
 
 ## Ссылка на страницу:
+
+https://andrey1079.github.io/test-task-for-Only/
