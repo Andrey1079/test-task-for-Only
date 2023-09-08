@@ -1,0 +1,16 @@
+.button {
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  border-radius: 41px;
+  border: none;
+  opacity: 70%;
+  background-image: url(../../images/plus.png);
+  background-position: center;
+  background-size: 11px;
+  background-repeat: no-repeat;
+  padding: 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}

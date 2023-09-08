@@ -1,0 +1,11 @@
+.button_active {
+  width: min-content;
+  background-position: 20.5px center;
+  opacity: 1;
+  background-image: url(../../../images/minus.png);
+}
+.button_active:before {
+  content: attr(data-name);
+  margin-left: 41px;
+  margin-right: 20.5px;
+}
