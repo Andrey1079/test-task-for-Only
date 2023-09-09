@@ -63,3 +63,6 @@ export const markerArray = [
 export const background = document.querySelector('.background');
 
 export let checkbox = document.querySelector('.checkbox-container__checkbox');
+export const backgroundImageWidth = 1920;
+export const backgroundImageHeight = 1080;
+export const buttonSize = 41;

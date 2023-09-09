@@ -1,9 +1,21 @@
 import PlaceMarker from '../components/PlaceMarker';
-import { markerArray, background, checkbox } from '../variables/variables';
+import {
+  markerArray,
+  background,
+  checkbox,
+  backgroundImageHeight,
+  backgroundImageWidth,
+  buttonSize,
+} from '../variables/variables';
 import Position from '../components/Position';
 import '../pages/index.css';
 
-const position = new Position('.background', 1920, 1080, 41);
+const position = new Position(
+  '.background',
+  backgroundImageWidth,
+  backgroundImageHeight,
+  buttonSize,
+);
 
 function createMarker(marker) {
   const newMarker = new PlaceMarker(marker, '.marker-template', getPosition);
